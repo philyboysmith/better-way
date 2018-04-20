@@ -80,27 +80,22 @@ table {
   }
 
   h1 {
-      font-size: 6vw;
       margin-bottom: 0.6em;
-      text-transform: uppercase;
-      letter-spacing: 6px;
       line-height: 1.2;
-  }
-  @media only screen and (min-width: 768px) {
-    h1 {
-        font-size: 50px;
+        font-size: 28px;
     }
-  }
   p {
       font-size: 1.5em;
   }
 
   a {
+      font-size: 24px;
       color: black;
+      text-decoration: none;
   }
   img {
       width: 100%;
-      max-width: 700px;
+      max-width: 900px;
       
   }
 
