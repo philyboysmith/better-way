@@ -82,17 +82,24 @@ table {
   h1 {
       margin-bottom: 0.6em;
       line-height: 1.2;
-        font-size: 28px;
-    }
-  p {
-      font-size: 1.5em;
+        font-size: 22px;
   }
 
   a {
-      font-size: 24px;
+      font-size: 20px;
       color: black;
       text-decoration: none;
   }
+
+  @media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+    a {
+        font-size: 24px;
+    }
+    }
+
   img {
       width: 100%;
       max-width: 900px;
