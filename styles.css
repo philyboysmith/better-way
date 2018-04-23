@@ -72,7 +72,7 @@ table {
       font-family: 'AkzidenzGroteskPro';
       text-align: center;
       background: white;
-      padding: 0 1em;
+      padding: 0;
       min-height: 100%;
       display: flex;
       align-items: center;
